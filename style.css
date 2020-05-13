@@ -1,0 +1,24 @@
+body{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+@media only screen and (min-width: 700px) {
+    .container {
+        width: 45%;
+    }
+    .banner {
+        font-size: 70px;
+    }
+  }
+
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: blue;
+    font-family: sans-serif;
+}
